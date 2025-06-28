@@ -37,7 +37,7 @@ export default function ProductDetail() {
       <Navbar />
       <img src={product.image} className="w-40 h-40 object-contain mx-auto" />
       <h1 className="text-xl font-bold mt-4">{product.title}</h1>
-      <p className="text-gray-900">{product.description}</p>
+      <p className="text-gray-300">{product.description}</p>
       <p className="font-semibold mt-2">${product.price}</p>
       <button onClick={toggleFavorite} className="mt-4 bg-pink-500 text-white px-4 py-2 rounded">
         {isFav ? 'Remove from Favorite' : 'Add to Favorite'}
